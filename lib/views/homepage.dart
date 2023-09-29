@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:media_booter/views/latest.dart';
-import 'package:media_booter/views/music.dart';
-import 'package:media_booter/views/video.dart';
+import 'package:media_booster_app/views/video.dart';
+
+import 'latest.dart';
+import 'music.dart';
+
 
 class homepage extends StatefulWidget {
   const homepage({Key? key}) : super(key: key);

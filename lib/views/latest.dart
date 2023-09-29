@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:carousel_slider/carousel_controller.dart';
 import 'package:carousel_slider/carousel_slider.dart';
-import 'package:media_booter/music_utils.dart';
-import 'package:media_booter/video_utils.dart';
-import 'package:media_booter/views/Musicpage.dart';
-import 'package:media_booter/views/my_video_page.dart';
+
+import '../music_utils.dart';
+import '../video_utils.dart';
+import 'Musicpage.dart';
+import 'my_video_page.dart';
 
 class latest extends StatefulWidget {
   const latest({Key? key}) : super(key: key);
