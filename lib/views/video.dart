@@ -23,14 +23,7 @@ class _VideoState extends State<Video> {
             children: Videolist.map(
               (e) => GestureDetector(
                 onTap: () {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => Video_page(
-                        Name: e['Vname'],
-                        video: e['Video'],
-                      ),
-                    ),
-                  );
+                  Navigator.pushNamed(context, 'videopage');
                 },
                 child: Container(
                   height: 200,

@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:media_booster_app/views/my_video_page.dart';
+
 import 'views/homepage.dart';
 import 'views/splashscreen.dart';
 
@@ -21,6 +23,7 @@ class _MymusicState extends State<Mymusic> {
     return MaterialApp(
       routes: {
         'homepage': (context) => homepage(),
+        'videopage': (context) => Video_page(),
       },
       debugShowCheckedModeBanner: false,
       theme: ThemeData(useMaterial3: true),

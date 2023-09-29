@@ -114,14 +114,7 @@ class _latestState extends State<latest> {
                                 image: AssetImage(e['VImage']))),
                         child: IconButton(
                           onPressed: () {
-                            Navigator.of(context).push(
-                              MaterialPageRoute(
-                                builder: (context) => Video_page(
-                                  Name: e['Vname'],
-                                  video: e['Video'],
-                                ),
-                              ),
-                            );
+                            Navigator.pushNamed(context, 'videopage');
                           },
                           icon: Icon(
                             Icons.play_circle_fill_outlined,
